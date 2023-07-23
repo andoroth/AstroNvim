@@ -1,0 +1,18 @@
+
+
+
+Install neovim 0.10.x
+Install npm
+
+
+Install packer
+
+
+add everything but /after folder
+
+
+Install plugins with PackerSync
+
+
+add /after folder
+
