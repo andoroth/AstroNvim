@@ -1,18 +1,22 @@
-
-
-
 Install neovim 0.10.x
-Install npm
+    sudo add-apt-repository ppa:neovim-ppa/unstable
+    sudo apt-get update
+    sudo apt-get install neovim
 
+Install npm
+    sudo apt-get install npm
 
 Install packer
-
+    git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+     ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
 add everything but /after folder
-
+    rm -r after
 
 Install plugins with PackerSync
-
+    nvim lua/andorman/packer.lua
+    :so
+    :PackerSync
 
 add /after folder
-
+    git checkout after
