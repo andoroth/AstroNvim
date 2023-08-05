@@ -12,6 +12,8 @@ set shiftwidth=4
 set expandtab
 
 set smartindent
+set ignorecase
+set smartcase
 
 set noswapfile
 set nobackup
@@ -27,3 +29,7 @@ set signcolumn=yes
 
 set updatetime=50
 set colorcolumn=100
+
+" autosave on focus loss, auto read from disk on focus return
+set autoread
+:au FocusLost * silent! wa

@@ -1,4 +1,3 @@
-
 ## Utilities
 Lgs				Git utility
 Lu				Undo history tree
@@ -14,7 +13,7 @@ C-e				Quick view marked buffers
 C-(h,t,n)		Switch to buffer 1,2,3
 
 ## Editing
-C-a				Increment next number in line by 1
+C-a/x				Inc/Decrement next number in line by 1
 C[i/a]<delim>	Remove all text inc/exc delim and move curser to inside of delim
 (v) J,K			Move code block around
 J 				Append next line to this one
