@@ -1,6 +1,10 @@
 
 vim.g.mapleader = " "
 
+-- Save/Quit quickly/easily
+vim.keymap.set({"n", "v", "i"}, "<C-s>", "<Esc>:w<CR>")
+vim.keymap.set({"n", "v", "i"}, "<C-q>", "<Esc>:q<CR>")
+
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>gi", ":Git ")
 
