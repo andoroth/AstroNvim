@@ -10,7 +10,7 @@ C-p				Fuzzy find Git project
 
 La				Mark buffer
 C-e				Quick view marked buffers
-C-(h,t,n)		Switch to buffer 1,2,3
+C-(j,k,l,i)		Switch to buffer 1,2,3,4
 
 ## Editing
 C-a/x				Inc/Decrement next number in line by 1

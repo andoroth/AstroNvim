@@ -9,6 +9,14 @@ lsp.ensure_installed({
 require'lspconfig'.pyright.setup{}
 
 local cmp = require('cmp')
+local cmp_action = require('lsp-zero').cmp_action()
+cmp.setup({
+  mapping = {
+    ['<CR>'] = cmp.mapping.confirm({select = true}),
+    ['<Tab>'] = cmp_action.luasnip_supertab(),
+    ['<S-Tab>'] = cmp_action.luasnip_shift_supertab(),
+  }
+})
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
 
 lsp.on_attach(function(client, bufnr)
