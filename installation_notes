@@ -20,3 +20,12 @@ Install plugins with PackerSync
 
 add /after folder
     git checkout after
+
+.inputrc:
+    set completion-ignore-case On
+    set bell-style none
+    set bell-style visible
+ 
+.bash_aliases:
+    alias vim='nvim'
+

@@ -14,7 +14,7 @@ C-(j,k,l,i)		Switch to buffer 1,2,3,4
 
 ## Editing
 C-a/x				Inc/Decrement next number in line by 1
-C[i/a]<delim>	Remove all text inc/exc delim and move curser to inside of delim
+c[i/a]<delim>	Remove all text inc/exc delim and move curser to inside of delim
 (v) J,K			Move code block around
 J 				Append next line to this one
 Lp              Paste over, preserving clipboard
