@@ -17,6 +17,8 @@ Install plugins with PackerSync
     nvim lua/andorman/packer.lua
     :so
     :PackerSync
+    :so
+    :PackerSync
 
 add /after folder
     git checkout after
