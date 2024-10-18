@@ -32,6 +32,11 @@ return {
     opts = { ignored_filetypes = { "nofile", "quickfix", "qf", "prompt" }, ignored_buftypes = { "nofile" } },
   },
   {
+    'mrcjkb/rustaceanvim',
+    version = '^5',
+    lazy = false,
+  },
+  {
     "windwp/nvim-autopairs",
     event = "User AstroFile",
     opts = {
