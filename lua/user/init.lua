@@ -12,6 +12,9 @@ return {
       ["<C-s>"] = { "<Esc>:w<CR>" },
       ["<C-q>"] = { "<Esc>:q<CR>" },
     },
+    n = {
+      ["<leader>lr"] = { ":lua vim.lsp.buf.rename()<CR>" },
+    },
   },
   opt = {
     guifont = "FantasqueSansMNerdFont"

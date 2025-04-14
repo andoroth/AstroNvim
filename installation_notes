@@ -3,8 +3,8 @@ Install neovim 0.10.x
     sudo apt-get update
     sudo apt-get install neovim
 
-Install npm
-    sudo apt-get install npm
+#Install npm
+#    sudo apt-get install npm
 
 Install cargo
     sudo apt-get install cargo
